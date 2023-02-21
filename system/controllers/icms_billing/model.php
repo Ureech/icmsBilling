@@ -1,7 +1,11 @@
 <?php
 
-class modelIcms_billing extends cmsModel {
+class modelIcmsBilling extends cmsModel {
     
-    /*{comgen-model-methods}*/
+    public function getSum($row,$table){
+        $sel = $this->db->query("SELECT SUM($row) as summ FROM `{#}$table`");
+        $result = $this->db->fetchAssoc($sel);
+        return $result['summ'];
+    }
     
 }
