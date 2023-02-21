@@ -1,0 +1,71 @@
+form .child_field {
+    margin-left: 0px!important;
+  }
+  form .child_field label {
+    margin-left: 10px!important;
+  }
+ /**********************************/ 
+.alert-col {
+    width: auto;
+    font-size: 1.5rem;
+}
+
+.alert-number {
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+}
+
+.alert-curr {
+    font-size: 1rem;
+}
+
+.col-balance i {
+    margin: 0 0.3rem;
+}
+
+.history-h4 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.report {
+    background-color: #fff;
+    border: 1px solid #c8ced3;
+    border-radius: .25rem;
+    padding: 15px;
+}
+span.debt{
+font-size:1.5rem;
+font-weight: 600;
+color:red;
+padding:0.25rem 0.5rem;
+}
+span.all-many{
+    font-size:1.5rem;
+    font-weight: 600;
+    color:green;
+    padding:0.25rem 0.5rem;
+}
+#fset_amount,#fset_basic{
+    width:49%;
+    border:1px solid #ccc;
+    padding:15px;
+}
+#fset_amount legend{
+    width:auto;
+    padding:0 1rem;
+}
+.sys{
+    border:1px solid #ccc;
+    padding:15px;   
+}
+#f_walet.child_field,#f_card.child_field{
+    padding-left:0!important;
+}
+th.inst-pay{
+text-align: center;
+width:300px;
+}
+th.inst-pay a{
+    padding:0 0.5rem
+    }
